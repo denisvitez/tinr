@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEBFF30A1A0148FB003350A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3091A0148FB003350A7 /* main.m */; };
+		AEBFF30D1A0148FB003350A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF30C1A0148FB003350A7 /* AppDelegate.m */; };
+		AEBFF3101A0148FB003350A7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF30F1A0148FB003350A7 /* MasterViewController.m */; };
+		AEBFF3131A0148FB003350A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3121A0148FB003350A7 /* DetailViewController.m */; };
+		AEBFF3161A0148FB003350A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3141A0148FB003350A7 /* Main.storyboard */; };
+		AEBFF3181A0148FB003350A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3171A0148FB003350A7 /* Images.xcassets */; };
+		AEBFF31B1A0148FB003350A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */; };
+		AEBFF3271A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3261A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEBFF3211A0148FC003350A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBFF2FC1A0148FB003350A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBFF3031A0148FB003350A7;
+			remoteInfo = "Pirates of the Rum sea";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEBFF3041A0148FB003350A7 /* Pirates of the Rum sea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirates of the Rum sea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBFF3081A0148FB003350A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBFF3091A0148FB003350A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEBFF30B1A0148FB003350A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEBFF30C1A0148FB003350A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEBFF30E1A0148FB003350A7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AEBFF30F1A0148FB003350A7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AEBFF3111A0148FB003350A7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AEBFF3121A0148FB003350A7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AEBFF3151A0148FB003350A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEBFF3171A0148FB003350A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEBFF31A1A0148FB003350A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AEBFF3201A0148FC003350A7 /* Pirates of the Rum seaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirates of the Rum seaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBFF3251A0148FC003350A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBFF3261A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirates_of_the_Rum_seaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEBFF3011A0148FB003350A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBFF31D1A0148FC003350A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEBFF2FB1A0148FB003350A7 = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3061A0148FB003350A7 /* Pirates of the Rum sea */,
+				AEBFF3231A0148FC003350A7 /* Pirates of the Rum seaTests */,
+				AEBFF3051A0148FB003350A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEBFF3051A0148FB003350A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3041A0148FB003350A7 /* Pirates of the Rum sea.app */,
+				AEBFF3201A0148FC003350A7 /* Pirates of the Rum seaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBFF3061A0148FB003350A7 /* Pirates of the Rum sea */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF30B1A0148FB003350A7 /* AppDelegate.h */,
+				AEBFF30C1A0148FB003350A7 /* AppDelegate.m */,
+				AEBFF30E1A0148FB003350A7 /* MasterViewController.h */,
+				AEBFF30F1A0148FB003350A7 /* MasterViewController.m */,
+				AEBFF3111A0148FB003350A7 /* DetailViewController.h */,
+				AEBFF3121A0148FB003350A7 /* DetailViewController.m */,
+				AEBFF3141A0148FB003350A7 /* Main.storyboard */,
+				AEBFF3171A0148FB003350A7 /* Images.xcassets */,
+				AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */,
+				AEBFF3071A0148FB003350A7 /* Supporting Files */,
+			);
+			path = "Pirates of the Rum sea";
+			sourceTree = "<group>";
+		};
+		AEBFF3071A0148FB003350A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3081A0148FB003350A7 /* Info.plist */,
+				AEBFF3091A0148FB003350A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEBFF3231A0148FC003350A7 /* Pirates of the Rum seaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3261A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m */,
+				AEBFF3241A0148FC003350A7 /* Supporting Files */,
+			);
+			path = "Pirates of the Rum seaTests";
+			sourceTree = "<group>";
+		};
+		AEBFF3241A0148FC003350A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3251A0148FC003350A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEBFF3031A0148FB003350A7 /* Pirates of the Rum sea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBFF32A1A0148FC003350A7 /* Build configuration list for PBXNativeTarget "Pirates of the Rum sea" */;
+			buildPhases = (
+				AEBFF3001A0148FB003350A7 /* Sources */,
+				AEBFF3011A0148FB003350A7 /* Frameworks */,
+				AEBFF3021A0148FB003350A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirates of the Rum sea";
+			productName = "Pirates of the Rum sea";
+			productReference = AEBFF3041A0148FB003350A7 /* Pirates of the Rum sea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEBFF31F1A0148FC003350A7 /* Pirates of the Rum seaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBFF32D1A0148FC003350A7 /* Build configuration list for PBXNativeTarget "Pirates of the Rum seaTests" */;
+			buildPhases = (
+				AEBFF31C1A0148FC003350A7 /* Sources */,
+				AEBFF31D1A0148FC003350A7 /* Frameworks */,
+				AEBFF31E1A0148FC003350A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBFF3221A0148FC003350A7 /* PBXTargetDependency */,
+			);
+			name = "Pirates of the Rum seaTests";
+			productName = "Pirates of the Rum seaTests";
+			productReference = AEBFF3201A0148FC003350A7 /* Pirates of the Rum seaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEBFF2FC1A0148FB003350A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = fri;
+				TargetAttributes = {
+					AEBFF3031A0148FB003350A7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AEBFF31F1A0148FC003350A7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AEBFF3031A0148FB003350A7;
+					};
+				};
+			};
+			buildConfigurationList = AEBFF2FF1A0148FB003350A7 /* Build configuration list for PBXProject "Pirates of the Rum sea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEBFF2FB1A0148FB003350A7;
+			productRefGroup = AEBFF3051A0148FB003350A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBFF3031A0148FB003350A7 /* Pirates of the Rum sea */,
+				AEBFF31F1A0148FC003350A7 /* Pirates of the Rum seaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBFF3021A0148FB003350A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBFF3161A0148FB003350A7 /* Main.storyboard in Resources */,
+				AEBFF31B1A0148FB003350A7 /* LaunchScreen.xib in Resources */,
+				AEBFF3181A0148FB003350A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBFF31E1A0148FC003350A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEBFF3001A0148FB003350A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBFF30D1A0148FB003350A7 /* AppDelegate.m in Sources */,
+				AEBFF3101A0148FB003350A7 /* MasterViewController.m in Sources */,
+				AEBFF30A1A0148FB003350A7 /* main.m in Sources */,
+				AEBFF3131A0148FB003350A7 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBFF31C1A0148FC003350A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBFF3271A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEBFF3221A0148FC003350A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEBFF3031A0148FB003350A7 /* Pirates of the Rum sea */;
+			targetProxy = AEBFF3211A0148FC003350A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEBFF3141A0148FB003350A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBFF3151A0148FB003350A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBFF31A1A0148FB003350A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEBFF3281A0148FC003350A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEBFF3291A0148FC003350A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEBFF32B1A0148FC003350A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirates of the Rum sea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEBFF32C1A0148FC003350A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirates of the Rum sea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEBFF32E1A0148FC003350A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirates of the Rum seaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirates of the Rum sea.app/Pirates of the Rum sea";
+			};
+			name = Debug;
+		};
+		AEBFF32F1A0148FC003350A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirates of the Rum seaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirates of the Rum sea.app/Pirates of the Rum sea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEBFF2FF1A0148FB003350A7 /* Build configuration list for PBXProject "Pirates of the Rum sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBFF3281A0148FC003350A7 /* Debug */,
+				AEBFF3291A0148FC003350A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBFF32A1A0148FC003350A7 /* Build configuration list for PBXNativeTarget "Pirates of the Rum sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBFF32B1A0148FC003350A7 /* Debug */,
+				AEBFF32C1A0148FC003350A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEBFF32D1A0148FC003350A7 /* Build configuration list for PBXNativeTarget "Pirates of the Rum seaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBFF32E1A0148FC003350A7 /* Debug */,
+				AEBFF32F1A0148FC003350A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEBFF2FC1A0148FB003350A7 /* Project object */;
+}
