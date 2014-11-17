@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE451BBD1A1A2AC30005BB11 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = AE451BBC1A1A2AC30005BB11 /* Gameplay.m */; };
 		AEBFF30A1A0148FB003350A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3091A0148FB003350A7 /* main.m */; };
-		AEBFF30D1A0148FB003350A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF30C1A0148FB003350A7 /* AppDelegate.m */; };
-		AEBFF3101A0148FB003350A7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF30F1A0148FB003350A7 /* MasterViewController.m */; };
-		AEBFF3131A0148FB003350A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3121A0148FB003350A7 /* DetailViewController.m */; };
-		AEBFF3161A0148FB003350A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3141A0148FB003350A7 /* Main.storyboard */; };
-		AEBFF3181A0148FB003350A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3171A0148FB003350A7 /* Images.xcassets */; };
-		AEBFF31B1A0148FB003350A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */; };
 		AEBFF3271A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3261A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m */; };
+		AEBFF3331A01502B003350A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3321A01502B003350A7 /* AudioToolbox.framework */; };
+		AEBFF3351A01503A003350A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3341A01503A003350A7 /* AVFoundation.framework */; };
+		AEBFF3371A01504A003350A7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3361A01504A003350A7 /* GameKit.framework */; };
+		AEBFF3391A015061003350A7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3381A015061003350A7 /* OpenGLES.framework */; };
+		AEBFF33B1A015076003350A7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF33A1A015076003350A7 /* OpenAL.framework */; };
+		AEBFF33D1A015085003350A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF33C1A015085003350A7 /* QuartzCore.framework */; };
+		AEBFF33F1A0150BA003350A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF33E1A0150BA003350A7 /* Foundation.framework */; };
+		AEBFF3411A0150D7003350A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3401A0150D7003350A7 /* CoreGraphics.framework */; };
+		AEBFF3431A0150E7003350A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF3421A0150E7003350A7 /* UIKit.framework */; };
+		AEBFF3491A0159C9003350A7 /* PiratesGame.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF3481A0159C9003350A7 /* PiratesGame.m */; };
+		AEBFF34B1A016059003350A7 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFF34A1A016059003350A7 /* libXNI.a */; };
+		AEBFF34D1A0182B2003350A7 /* gameSprites.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBFF34C1A0182B2003350A7 /* gameSprites.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +35,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE451BBB1A1A2AC30005BB11 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		AE451BBC1A1A2AC30005BB11 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
 		AEBFF3041A0148FB003350A7 /* Pirates of the Rum sea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirates of the Rum sea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFF3081A0148FB003350A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBFF3091A0148FB003350A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEBFF30B1A0148FB003350A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEBFF30C1A0148FB003350A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEBFF30E1A0148FB003350A7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		AEBFF30F1A0148FB003350A7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		AEBFF3111A0148FB003350A7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		AEBFF3121A0148FB003350A7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		AEBFF3151A0148FB003350A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEBFF3171A0148FB003350A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AEBFF31A1A0148FB003350A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AEBFF3201A0148FC003350A7 /* Pirates of the Rum seaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirates of the Rum seaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFF3251A0148FC003350A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBFF3261A0148FC003350A7 /* Pirates_of_the_Rum_seaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirates_of_the_Rum_seaTests.m; sourceTree = "<group>"; };
+		AEBFF3301A014FC8003350A7 /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = "../XNI 0/libXNI.a"; sourceTree = "<group>"; };
+		AEBFF3321A01502B003350A7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AEBFF3341A01503A003350A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AEBFF3361A01504A003350A7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AEBFF3381A015061003350A7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AEBFF33A1A015076003350A7 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		AEBFF33C1A015085003350A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEBFF33E1A0150BA003350A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEBFF3401A0150D7003350A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEBFF3421A0150E7003350A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEBFF3471A0159C9003350A7 /* PiratesGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiratesGame.h; sourceTree = "<group>"; };
+		AEBFF3481A0159C9003350A7 /* PiratesGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiratesGame.m; sourceTree = "<group>"; };
+		AEBFF34A1A016059003350A7 /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = ../XNI/libXNI.a; sourceTree = "<group>"; };
+		AEBFF34C1A0182B2003350A7 /* gameSprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameSprites.png; path = ../../../Downloads/gameSprites.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBFF34B1A016059003350A7 /* libXNI.a in Frameworks */,
+				AEBFF3431A0150E7003350A7 /* UIKit.framework in Frameworks */,
+				AEBFF3411A0150D7003350A7 /* CoreGraphics.framework in Frameworks */,
+				AEBFF33F1A0150BA003350A7 /* Foundation.framework in Frameworks */,
+				AEBFF33D1A015085003350A7 /* QuartzCore.framework in Frameworks */,
+				AEBFF33B1A015076003350A7 /* OpenAL.framework in Frameworks */,
+				AEBFF3391A015061003350A7 /* OpenGLES.framework in Frameworks */,
+				AEBFF3371A01504A003350A7 /* GameKit.framework in Frameworks */,
+				AEBFF3351A01503A003350A7 /* AVFoundation.framework in Frameworks */,
+				AEBFF3331A01502B003350A7 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4B26C41A10E8A60081C6B3 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
 		AEBFF2FB1A0148FB003350A7 = {
 			isa = PBXGroup;
 			children = (
+				AEBFF3441A015102003350A7 /* Framework */,
 				AEBFF3061A0148FB003350A7 /* Pirates of the Rum sea */,
 				AEBFF3231A0148FC003350A7 /* Pirates of the Rum seaTests */,
 				AEBFF3051A0148FB003350A7 /* Products */,
@@ -84,15 +116,9 @@
 		AEBFF3061A0148FB003350A7 /* Pirates of the Rum sea */ = {
 			isa = PBXGroup;
 			children = (
-				AEBFF30B1A0148FB003350A7 /* AppDelegate.h */,
-				AEBFF30C1A0148FB003350A7 /* AppDelegate.m */,
-				AEBFF30E1A0148FB003350A7 /* MasterViewController.h */,
-				AEBFF30F1A0148FB003350A7 /* MasterViewController.m */,
-				AEBFF3111A0148FB003350A7 /* DetailViewController.h */,
-				AEBFF3121A0148FB003350A7 /* DetailViewController.m */,
-				AEBFF3141A0148FB003350A7 /* Main.storyboard */,
-				AEBFF3171A0148FB003350A7 /* Images.xcassets */,
-				AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */,
+				AE4B26C41A10E8A60081C6B3 /* Configs */,
+				AEBFF3461A01595E003350A7 /* Assets */,
+				AEBFF3451A015900003350A7 /* Classes */,
 				AEBFF3071A0148FB003350A7 /* Supporting Files */,
 			);
 			path = "Pirates of the Rum sea";
@@ -122,6 +148,43 @@
 				AEBFF3251A0148FC003350A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEBFF3441A015102003350A7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF34A1A016059003350A7 /* libXNI.a */,
+				AEBFF3421A0150E7003350A7 /* UIKit.framework */,
+				AEBFF3401A0150D7003350A7 /* CoreGraphics.framework */,
+				AEBFF33E1A0150BA003350A7 /* Foundation.framework */,
+				AEBFF33C1A015085003350A7 /* QuartzCore.framework */,
+				AEBFF33A1A015076003350A7 /* OpenAL.framework */,
+				AEBFF3381A015061003350A7 /* OpenGLES.framework */,
+				AEBFF3361A01504A003350A7 /* GameKit.framework */,
+				AEBFF3341A01503A003350A7 /* AVFoundation.framework */,
+				AEBFF3321A01502B003350A7 /* AudioToolbox.framework */,
+				AEBFF3301A014FC8003350A7 /* libXNI.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		AEBFF3451A015900003350A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF3471A0159C9003350A7 /* PiratesGame.h */,
+				AEBFF3481A0159C9003350A7 /* PiratesGame.m */,
+				AE451BBB1A1A2AC30005BB11 /* Gameplay.h */,
+				AE451BBC1A1A2AC30005BB11 /* Gameplay.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AEBFF3461A01595E003350A7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF34C1A0182B2003350A7 /* gameSprites.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBFF3161A0148FB003350A7 /* Main.storyboard in Resources */,
-				AEBFF31B1A0148FB003350A7 /* LaunchScreen.xib in Resources */,
-				AEBFF3181A0148FB003350A7 /* Images.xcassets in Resources */,
+				AEBFF34D1A0182B2003350A7 /* gameSprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBFF30D1A0148FB003350A7 /* AppDelegate.m in Sources */,
-				AEBFF3101A0148FB003350A7 /* MasterViewController.m in Sources */,
+				AEBFF3491A0159C9003350A7 /* PiratesGame.m in Sources */,
 				AEBFF30A1A0148FB003350A7 /* main.m in Sources */,
-				AEBFF3131A0148FB003350A7 /* DetailViewController.m in Sources */,
+				AE451BBD1A1A2AC30005BB11 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,25 +308,6 @@
 			targetProxy = AEBFF3211A0148FC003350A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AEBFF3141A0148FB003350A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEBFF3151A0148FB003350A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AEBFF3191A0148FB003350A7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEBFF31A1A0148FB003350A7 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AEBFF3281A0148FC003350A7 /* Debug */ = {
@@ -351,9 +392,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "Pirates of the Rum sea/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tinr/Documents/XNI,
+					0,
+					/Users/tinr/Documents/XNI,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI/\"/**";
 			};
 			name = Debug;
 		};
@@ -361,9 +410,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "Pirates of the Rum sea/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tinr/Documents/XNI,
+					0,
+					/Users/tinr/Documents/XNI,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI/\"/**";
 			};
 			name = Release;
 		};
@@ -420,6 +477,7 @@
 				AEBFF32C1A0148FC003350A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBFF32D1A0148FC003350A7 /* Build configuration list for PBXNativeTarget "Pirates of the Rum seaTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +486,7 @@
 				AEBFF32F1A0148FC003350A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

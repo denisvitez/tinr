@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "Retronator.Xni.Framework.h"
 
 int main(int argc, char * argv[]) {
+    [GameHost load];
+    
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, @"GameHost", @"PiratesGame");
     }
 }
